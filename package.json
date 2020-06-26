@@ -1,5 +1,5 @@
 {
-  "name": "aws-personal-website",
+  "name": "website-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
