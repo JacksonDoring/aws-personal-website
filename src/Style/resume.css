@@ -1,0 +1,16 @@
+.info-container{
+    border-bottom: 3px solid black;
+    padding: 30px;;
+}
+
+.birthday{
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon{
+    padding-right: 100px;
+}
