@@ -12,5 +12,35 @@
 }
 
 .icon{
-    padding-right: 100px;
+    padding-right: 30px;
+}
+
+.last-icon{
+    padding-bottom: 20px;;
+}
+
+#website-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: #1486b3;
+}
+
+#website-link:hover{
+    color: black;
+}
+
+.education-header{
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;;
+}
+
+.education-button{
+    background-color: white;
+    border: none;
+}
+
+.education-button:focus{
+    border:none;
+    outline: none;
 }
