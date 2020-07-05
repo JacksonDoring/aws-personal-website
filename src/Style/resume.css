@@ -12,11 +12,11 @@
 }
 
 .icon{
-    padding-right: 30px;
+    align-self: flex-start;
 }
 
-.last-icon{
-    padding-bottom: 20px;;
+.contact-info{
+    padding-left: 10px;
 }
 
 #website-link{
@@ -43,4 +43,8 @@
 .education-button:focus{
     border:none;
     outline: none;
+}
+
+h1{
+    padding-bottom: 20px;
 }

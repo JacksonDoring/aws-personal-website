@@ -8,7 +8,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import QUT from '../Components/QUT';
 
-function Information(){
+function ContactInformation(){
     return(
         <Container maxWidth="lg" className="info-container">
             <h1>Contact Information</h1>
@@ -17,7 +17,7 @@ function Information(){
                     <Grid item xs={6}>
                         <div className="birthday">
                             <CalendarTodayIcon className="icon"/>
-                            <p className="icon">02/09/2000</p>
+                            <p className="contact-info">02/09/2000</p>
                         </div>
                     
                     </Grid>
@@ -25,27 +25,26 @@ function Information(){
                     <Grid item xs={6} className="last-icon">
                         <div className="birthday">
                             <HomeIcon className="icon"/>
-                            <p>10 Meadows Drive, Kallangur</p>
+                            <p className="contact-info">10 Meadows Drive, Kallangur</p>
                         </div>      
                     </Grid>
 
                     <Grid item xs={6}>
                         <div className="birthday">
                             <PhoneIcon className="icon"/>
-                            <p className="icon">0401 429 998</p>
+                            <p className="contact-info">0401 429 998</p>
                         </div>
-                    
                     </Grid>
 
                     <Grid item xs={6} className="last-icon">
                         <div className="birthday">
                             <EmailIcon className="icon"/>
-                            <p>jackson_doring@outlook.com</p>
+                            <p className="contact-info">jackson_doring@outlook.com</p>
                         </div>      
                     </Grid>
 
                     <Grid item xs={12}>
-                        <a href="https://www.jacksondoring.com" id="website-link">www.jacksondoring.com</a>
+                        <a href="https://github.com/JacksonDoring" id="website-link">https://github.com/JacksonDoring</a>
                     </Grid>
                 </Grid>
             </div>
@@ -57,6 +56,7 @@ function AboutMe(){
     return(
         <Container maxWidth="lg" className="info-container">
             <h1>About Me</h1>
+            <p>I am a hard working person</p>
         </Container>
     );
 }
@@ -64,7 +64,7 @@ function AboutMe(){
 function Resume() {
     return (
       <div className="App">
-          <Information/>
+          <ContactInformation/>
           <AboutMe/>
           <QUT/>
       </div>
