@@ -16,7 +16,7 @@ function ContactInformation(){
                 <Grid container>
                     <Grid item xs={6}>
                         <div className="birthday">
-                            <CalendarTodayIcon className="icon"/>
+                            <CalendarTodayIcon fontSize="large" className="icon"/>
                             <p className="contact-info">02/09/2000</p>
                         </div>
                     
@@ -24,21 +24,21 @@ function ContactInformation(){
 
                     <Grid item xs={6} className="last-icon">
                         <div className="birthday">
-                            <HomeIcon className="icon"/>
+                            <HomeIcon fontSize="large" className="icon"/>
                             <p className="contact-info">10 Meadows Drive, Kallangur</p>
                         </div>      
                     </Grid>
 
                     <Grid item xs={6}>
                         <div className="birthday">
-                            <PhoneIcon className="icon"/>
+                            <PhoneIcon fontSize="large" className="icon"/>
                             <p className="contact-info">0401 429 998</p>
                         </div>
                     </Grid>
 
                     <Grid item xs={6} className="last-icon">
                         <div className="birthday">
-                            <EmailIcon className="icon"/>
+                            <EmailIcon fontSize="large" className="icon"/>
                             <p className="contact-info">jackson_doring@outlook.com</p>
                         </div>      
                     </Grid>
@@ -56,7 +56,10 @@ function AboutMe(){
     return(
         <Container maxWidth="lg" className="info-container">
             <h1>About Me</h1>
-            <p>I am a hard working person</p>
+
+            <div className="about-text">
+                <p>I am a hard working person</p>
+            </div>
         </Container>
     );
 }
