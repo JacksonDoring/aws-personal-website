@@ -7,7 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import QUT from "../Components/QUT";
-import SkillsBar from "../Components/Skills-bar";
+import Skills from "../Components/Skills";
 
 function ContactInformation() {
   return (
@@ -72,7 +72,7 @@ function Resume() {
       <ContactInformation />
       <AboutMe />
       <QUT />
-      {SkillsBar("testing")}
+      <Skills />
     </div>
   );
 }
