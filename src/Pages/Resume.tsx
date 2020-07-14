@@ -8,6 +8,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import QUT from "../Components/QUT";
 import Skills from "../Components/Skills";
+import WorkExperience from "../Components/Work-Experience";
 
 function ContactInformation() {
   return (
@@ -73,6 +74,7 @@ function Resume() {
       <AboutMe />
       <QUT />
       <Skills />
+      <WorkExperience />
     </div>
   );
 }

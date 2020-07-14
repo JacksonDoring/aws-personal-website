@@ -3,18 +3,18 @@ Primary colour: #1486b3
 Secondary colours: black and white
 */
 
-.header-container{
+.header-container {
   background-color: #1486b3;
   padding: 15px;
 }
 
-.menu{
+.menu {
   color: white;
   padding: 10px;
   text-decoration: none;
 }
 
-.menu:hover{
+.menu:hover {
   color: black;
 }
 
