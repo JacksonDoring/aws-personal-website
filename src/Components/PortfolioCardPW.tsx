@@ -1,32 +1,30 @@
 import React from "react";
-import Me from "../Images/me2.jpg";
+import PersonalWebsite from "../PortfolioContent/PersonalWebsite";
 
-
-function PortfolioCardPW() {
+function PortfolioCard(portfolioName: string, linkCode: string, image: string, frontBGColour:string, photoSize:string) {
   return (
+    <div className="cardContainer">
     <div className="flip-container" >
 	<div className="flipper">
-		<div className="front" style={{backgroundColor: "yellow"}}>
-      <img src={Me} width="100%"></img>
+		<div className="front" style={{backgroundColor: frontBGColour}}>
+      <div className={photoSize+"Div"}>
+        <img src={require('../Images/'+image)} className={photoSize}></img>
+      </div>
 		</div>
 		<div className="back" style={{backgroundColor: "white"}}>
-			<h1 className="cardHeading">Personal Website</h1>
+			<h1 className="cardHeading">{portfolioName}</h1>
       <div className="cardDetailsDiv">
-      <ul className="cardDetails">
-        <li>Developed Using React</li>
-        <li><b>Language:</b> Typescript</li>
-        <li>Used Version Control</li>
-        <li>Hosted On AWS</li>
-      </ul>
+        <PersonalWebsite/>
       </div>
       <div className="cardLink">
-      <p className="linkCode"><b>Code:</b> link to code</p>
+      <p className="linkCode"><b>Code:</b> {linkCode}</p>
       </div>
       
 		</div>
 	</div>
 </div>
+</div>
   );
 }
 
-export default PortfolioCardPW;
+export default PortfolioCard;

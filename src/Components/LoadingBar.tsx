@@ -3,14 +3,14 @@ import "../Style/general.css";
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-function LoadingBar(skillName: string, skillLevel: number, skillImage: string) {
+function LoadingBar(skillName: string, skillLevel: number, skillImage: string, colour : string) {
   return (
 
     <div className="loadingBar">
         <CircularProgressbar value={skillLevel} text={`${skillLevel}%`} styles={{
     path: {
       // Path color
-      stroke: `rgba(62, 152, 199)`,
+      stroke: colour,
     },
     // Customize the circle behind the path, i.e. the "total progress"
     trail: {
