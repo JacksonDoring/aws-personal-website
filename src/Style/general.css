@@ -1,5 +1,17 @@
+.contactHeader{
+  color: white;
+}
+
+.contactText{
+  color: white;
+  font-size: 2em;
+  padding-bottom: 40px;
+  margin: 0px;
+}
+
 .footer{
   background-color: #1486b3;
+  padding-top: 20px;
 }
 
 .consoleImage{

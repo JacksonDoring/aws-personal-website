@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "../Style/general.css";
 import Card from "./PortfolioCardPW";
+import PersonalWebsite from "../PortfolioContent/PersonalWebsite";
 
 function Portfolio() {
 
@@ -33,6 +34,7 @@ function Portfolio() {
       {Card ("Connecting Brisbane", "Link to Code", "connectingBrisbaneLogo.png", "black", "portfolioLogoImage")}
       {Card ("Billboard Software", "Link to Code", "billboardImage.png", "#eeeeee", "consoleImage")}
       {Card ("Library System", "Link to Code", "librarySoftwarePhoto.PNG", "#0c0c0c", "consoleImage")}
+      
       </div>
       
       
