@@ -1,11 +1,5 @@
 import React from "react";
 
-function test(){
-    return(
-        <div>
-            <p>is it working?</p>
-        </div>
-    );
-}
+const persnoalWebsite = <p>testing <b>is</b> this working or not?</p>
 
-export default test;
+export default persnoalWebsite;

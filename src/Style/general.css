@@ -10,7 +10,7 @@
 }
 
 .footer{
-  background-color: #1486b3;
+  background-color: #2F2F2F;
   padding-top: 20px;
 }
 
@@ -55,6 +55,7 @@
 .experienceDiv{
   padding: 5%;
   padding-top: 40px;
+  padding-bottom: 10%;
 }
 
 .PrivateTabIndicator-colorSecondary-5{
@@ -143,18 +144,23 @@
   overflow: hidden;
 }
 
-.portfolioButton{
+#portfolioButton{
   margin: 30px;
-  background-color: #454545;
+  background-color: #1486b3;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  margin-top: 5%;
 }
-.portfolioButton:hover{
-  color: #1486b3;
+
+#portfolioButton:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
 }
 
 .portfolioButtonDiv{
   background-color:#454545;
+  padding-bottom: 5%;
 }
 
 .cardContainer{

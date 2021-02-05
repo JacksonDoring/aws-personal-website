@@ -45,9 +45,12 @@ const useStyles = makeStyles((theme: Theme) => ({
     backgroundColor: "theme.palette.background.paper",
     display: 'flex',
     height: 224,
+    alignContent: 'middle',
+    textAlign: 'left',
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`,
+    verticalAlign: 'center',
   },
 }));
 
@@ -81,32 +84,46 @@ export default function VerticalTabs() {
         <h3 className="experienceHeaders"><b>Manager @ La Zucca</b></h3>
         <p className="experienceTime">February 2020 - Current</p>
         <ul className="experienceList">
-          <li>Example</li>
-          <li>Example</li>
+          <li>Ensuring KPIs are met</li>
+          <li>Managing crew to ensure shifts are ran smoothly</li>
+          <li>Leading crew towards daily, weekly goals</li>
+          <li>Using critical problem solving to deal with problem as they arise and implementing protocols to ensure they are miniised in the suture</li>
+          <li>Maintaing high standards of food quality, consistancy, and food saftely</li>
+          <li>Ensuring the work place is safe a safe environment and crew are happy</li>
+          <li>Delivering high standards of customer service to patrons</li>
         </ul>
       </TabPanel>
       <TabPanel value={value} index={1}>
       <h3 className="experienceHeaders"><b>Web Developer @ Liberty Digital</b></h3>
         <p className="experienceTime">October 2019 - October 2020</p>
         <ul className="experienceList">
-          <li>Example</li>
-          <li>Example</li>
+          <li>Working closely with clients to deliver projects</li>
+          <li>Using Wordpress and Shopify to create websites for clients</li>
+          <li>Ensuring websites are user-friendly and visually appealing</li>
+          <li>Delivering websites that are built and designed to maximise user traffic and sales</li>
+          <li>Using Javascript, PHP, and CSS to deliver custom features for Wordpress sites</li>
+          <li>Working remotely</li>
+          <li>Advising, Investigating and Assisting in implementing new technologies and services</li>
+          <li>Ensuring KPIs are met</li>
         </ul>
       </TabPanel>
       <TabPanel value={value} index={2}>
       <h3 className="experienceHeaders"><b>IT Manager @ La Zucca</b></h3>
         <p className="experienceTime">July 2019 - Current</p>
         <ul className="experienceList">
-          <li>Example</li>
-          <li>Example</li>
+          <li>Using SEO to increase sales by 20%</li>
+          <li>Ensuirung IT services are running and maintained appropriately</li>
+          <li>Advising, Investigating and Assisting in implementing new technologies and services</li>
+          <li>Maintaining social media platforms, website, and ordering systems</li>
         </ul>
       </TabPanel>
       <TabPanel value={value} index={3}>
-      <h3 className="experienceHeaders"><b>Crew @ Hungry Jacks</b></h3>
+      <h3 className="experienceHeaders"><b>Team Leader @ Hungry Jacks</b></h3>
         <p className="experienceTime">October 2014 - March 2020</p>
         <ul className="experienceList">
-          <li>Example</li>
-          <li>Example</li>
+          <li>Ensuring shifts ran smoothly by communicating with crew and assisting managment</li>
+          <li>Helping managers reach KPIs</li>
+          <li>Mainting high food saftey standards</li>
         </ul>
       </TabPanel>
     </div>
