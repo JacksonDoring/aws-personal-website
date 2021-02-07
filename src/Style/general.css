@@ -1,3 +1,31 @@
+div::-webkit-scrollbar {
+  height: 15px;
+}
+
+div::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1486b3;
+}
+
+div::-webkit-scrollbar:vertical {
+  display: none;
+}
+
+.skillTag{
+  background-color: #1486b3;
+  color: white;
+  float: left;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
 .contactHeader {
   color: white;
 }
@@ -83,19 +111,28 @@
 }
 
 .cardDetailsDiv {
-  padding-top: 3%;
-  height: 70%;
+  color: white;
+  padding: 20px;
 }
 
 .cardDetails {
   float: left;
   font-size: 1.2em;
   text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.cardSkillsDiv{
+  padding:10px;
+  position: absolute;
+  bottom: 10px;
 }
 
 .cardHeading {
   font-size: 2em;
   padding: 20px;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .slidingBar {
@@ -231,7 +268,7 @@
   color: white;
 }
 
-.loadingBar {
+.loadingBar1 {
   float: left;
   padding-left: 50px;
   padding-bottom: 2.5%;
@@ -240,12 +277,12 @@
 
 .loadingBarImage {
   float: middle;
-  width: 65%;
+  width: 50%;
 }
 
 .loadingBarText {
   float: middle;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: white;
   min-width: 100px;
   max-width: 100%;
@@ -254,8 +291,9 @@
 
 .skillsBG {
   background-color: #454545;
-  padding: 5%;
+  padding: 4%;
   padding-bottom: 20px;
+  max-height: 60%;
 }
 
 .aboutMeParagraph {

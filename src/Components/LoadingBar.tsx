@@ -36,9 +36,9 @@ function LoadingBar(
       <p className="loadingBarText">
         <img
           src={require("../Images/" + skillImage)}
-          width="30px"
+          width="20px"
           className="loadingBarImage"
-        />
+        /><br></br>
         {skillName}
       </p>
     </div>

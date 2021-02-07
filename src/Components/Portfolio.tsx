@@ -35,71 +35,82 @@ function Portfolio() {
             "me2.jpg",
             "black",
             "front",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
-          {Card(
+           {Card(
             "Queensland Police",
             "QPS.png",
             "#374f6b",
             "portfolioLogoImage",
-            QPS
+            QPS,
+            technologies
           )}
           {Card(
             "Liberty Digital",
             "libertyDigital.png",
             "black",
             "portfolioLogoImage",
-            LibertyDigital
+            LibertyDigital,
+            technologies
           )}
           {Card(
             "La Zucca",
             "lazuccaLogo.png",
             "#222222",
             "portfolioLogoImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
           {Card(
             "Liberty Enterprises",
             "libertyEnterprises.png",
             "#111921",
             "portfolioLogoImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
           {Card(
             "Living Sound & Vision",
             "LSVLogo.png",
             "white",
             "portfolioLogoImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
           {Card(
             "Australian Secure Capital Fund",
             "ASCFLogo.png",
             "#f59331",
             "portfolioLogoImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
           {Card(
             "Connecting Brisbane",
             "connectingBrisbaneLogo.png",
             "black",
             "portfolioLogoImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
           {Card(
             "Billboard Software",
             "billboardImage.png",
             "#eeeeee",
             "consoleImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
           {Card(
             "Library System",
             "librarySoftwarePhoto.PNG",
             "#0c0c0c",
             "consoleImage",
-            personalWebsite
+            personalWebsite,
+            technologies
           )}
+         
         </div>
       </div>
       <div className="portfolioButtonDiv">
