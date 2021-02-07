@@ -4,7 +4,9 @@ import "../Style/general.css";
 function AboutMe() {
   return (
     <div className="aboutMe">
-      <h1 className="headings" id="about">About Me</h1>
+      <h1 className="headings" id="about">
+        About Me
+      </h1>
       <p className="aboutMeParagraph">
         I am in my final semester of{" "}
         <i>
