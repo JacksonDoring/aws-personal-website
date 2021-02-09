@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import AboutMe from "../Components/AboutMe";
 import Skills from "../Components/MySkils";
-import Experience from "../Components/Experience";
+import Experience from "../Components/ExperienceRedirect";
 import Portfolio from "../Components/Portfolio";
 import Footer from "../Components/Footer";
 

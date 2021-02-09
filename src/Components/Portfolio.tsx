@@ -29,7 +29,9 @@ function Portfolio() {
         <h1 className="headings portfolioHeader" id="portfolio">
           My Portfolio
         </h1>
+        
         <div className={divStyle}>
+        <div className="cardContain">
           {Card(
             "Personal Website",
             "me2.jpg",
@@ -110,7 +112,7 @@ function Portfolio() {
             personalWebsite,
             technologies
           )}
-         
+         </div>
         </div>
       </div>
       <div className="portfolioButtonDiv">

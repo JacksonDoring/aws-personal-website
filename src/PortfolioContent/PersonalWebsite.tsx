@@ -7,7 +7,7 @@ const personalWebsite = [
   </p>
 ];
 
-let technologies: string[] = ["apple", "pear", "orange"]; 
+let technologies: string[] = ["React", "Typescript", "AWS", "Github", "SASS", "CSS", "HTML"]; 
 
 
 export { personalWebsite, technologies };

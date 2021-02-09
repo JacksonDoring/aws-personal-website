@@ -1,3 +1,16 @@
+.mobileExperienceTabs{
+  border: 10px;
+  background-color: white;
+}
+
+.MuiTab-textColorPrimary.Mui-selected{
+  color: #1486b3 !important;
+}
+
+.PrivateTabIndicator-colorPrimary-3{
+  background-color: #1486b3 !important;
+}
+
 div::-webkit-scrollbar {
   height: 15px;
 }
@@ -36,9 +49,10 @@ div::-webkit-scrollbar:vertical {
 
 .contactText {
   color: white;
-  font-size: 2em;
+  font-size: 1.7em;
   padding-bottom: 40px;
   margin: 0px;
+  padding: 20px;
 }
 
 .footer {
@@ -113,6 +127,9 @@ div::-webkit-scrollbar:vertical {
 .cardDetailsDiv {
   color: white;
   padding: 20px;
+  font-size: 1em;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .cardDetails {
@@ -209,9 +226,18 @@ div::-webkit-scrollbar:vertical {
 }
 
 .cardContainer {
-  width: 33%;
+  min-width: 320px;
   float: left;
+  display: flex;
+  justify-content: center;
 }
+
+.cardContain{
+  
+  width: 100%;
+  display: inline-block;
+}
+
 .flip-container {
   perspective: 1000px;
 }
@@ -260,7 +286,6 @@ div::-webkit-scrollbar:vertical {
 .portfolioBG {
   background-color: #454545;
   padding-bottom: 30px;
-  padding: 2%;
   float: left;
 }
 
@@ -322,6 +347,10 @@ p {
   background-color: #333;
   overflow: hidden;
   width: 100%;
+  position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 100;
 }
 
 /* Style the links inside the navigation bar */
@@ -377,30 +406,39 @@ p {
   .topnav a.icon {
     float: right;
     display: block;
+    
   }
 
   .loadingBarText {
     float: middle;
-    font-size: 1.5em;
-    padding-top: 10%;
+    font-size: 1.2em;
   }
 
   .loadingBarImage {
     float: middle;
-    width: 70%;
+    width: 50%;
+    margin: 10px;
   }
 
   .skillsBG {
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .cardContainer {
-    width: 100%;
-    float: left;
+    min-width: 320px;
   }
 
   .smallCardGroupContainer {
     height: 1440px;
+    min-width: 320px;
+    padding: 0px;
+  }
+
+  .cardGroupContainer {
+    min-width: 320px;
+    margin: auto;
+  width: 80%;
+  padding: 0px;
   }
 }
 
@@ -414,6 +452,7 @@ p {
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
