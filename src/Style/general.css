@@ -476,4 +476,8 @@ p {
     font-size: 5em;
     padding-right: 10%;
   }
+
+  .contactText{
+    font-size: 1.3em;
+  }
 }

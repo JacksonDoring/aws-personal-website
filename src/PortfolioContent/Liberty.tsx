@@ -1,10 +1,13 @@
 import React from "react";
 
-const Liberty = (
+const Liberty = [
   <p>
-    Improved the functionality, appearance and usability of the Liberty Digital
-    website
+    I have developed my own Personal Website for displaying and demonstrating
+    skills, achievments and experience I have gained.
   </p>
-);
+];
 
-export default Liberty;
+let Ltechnologies: string[] = ["Wordpress", "Javascript", "CSS", "HTML", "PHP"]; 
+
+
+export { Liberty, Ltechnologies };

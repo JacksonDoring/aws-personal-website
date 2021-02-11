@@ -1,22 +1,13 @@
 import React from "react";
 
-const QPS = (
+const QPS = [
   <p>
-    Working with a team to deliver a Cybersecurity toolkit for the Queensland
-    Police website.
-    <br></br>
-    <br></br>
-    <h3 className="portfolioDotPoints">Developed Using:</h3>
-    <ul className="portfolioDotPoints">
-      <li>React(Typescript)</li>
-      <li>Node</li>
-      <li>MySQL Database</li>
-      <li>Knex</li>
-      <li>Github</li>
-      <li>Agile</li>
-    </ul>
-    <br></br>The projects Github can be found here: <b>link to github</b>
+    I have developed my own Personal Website for displaying and demonstrating
+    skills, achievments and experience I have gained.
   </p>
-);
+];
 
-export default QPS;
+let QPStechnologies: string[] = ["React", "Typescript", "Node", "Agile", "Github", "CSS", "MySQL Database"]; 
+
+
+export { QPS, QPStechnologies };

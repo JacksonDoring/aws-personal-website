@@ -3,10 +3,10 @@ import "../Style/general.css";
 import Card from "./PortfolioCardPW";
 import {
   personalWebsite,
-  technologies,
+  PWtechnologies,
 } from "../PortfolioContent/PersonalWebsite";
-import QPS from "../PortfolioContent/QueenslandPolice";
-import LibertyDigital from "../PortfolioContent/Liberty";
+import {QPS, QPStechnologies} from "../PortfolioContent/QueenslandPolice";
+import {Liberty, Ltechnologies} from "../PortfolioContent/Liberty";
 import Button from "@material-ui/core/Button";
 
 function Portfolio() {
@@ -38,7 +38,7 @@ function Portfolio() {
             "black",
             "front",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
            {Card(
             "Queensland Police",
@@ -46,15 +46,15 @@ function Portfolio() {
             "#374f6b",
             "portfolioLogoImage",
             QPS,
-            technologies
+            QPStechnologies
           )}
           {Card(
             "Liberty Digital",
             "libertyDigital.png",
             "black",
             "portfolioLogoImage",
-            LibertyDigital,
-            technologies
+            Liberty,
+            Ltechnologies
           )}
           {Card(
             "La Zucca",
@@ -62,7 +62,7 @@ function Portfolio() {
             "#222222",
             "portfolioLogoImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
           {Card(
             "Liberty Enterprises",
@@ -70,7 +70,7 @@ function Portfolio() {
             "#111921",
             "portfolioLogoImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
           {Card(
             "Living Sound & Vision",
@@ -78,7 +78,7 @@ function Portfolio() {
             "white",
             "portfolioLogoImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
           {Card(
             "Australian Secure Capital Fund",
@@ -86,7 +86,7 @@ function Portfolio() {
             "#f59331",
             "portfolioLogoImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
           {Card(
             "Connecting Brisbane",
@@ -94,7 +94,7 @@ function Portfolio() {
             "black",
             "portfolioLogoImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
           {Card(
             "Billboard Software",
@@ -102,7 +102,7 @@ function Portfolio() {
             "#eeeeee",
             "consoleImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
           {Card(
             "Library System",
@@ -110,7 +110,7 @@ function Portfolio() {
             "#0c0c0c",
             "consoleImage",
             personalWebsite,
-            technologies
+            PWtechnologies
           )}
          </div>
         </div>
