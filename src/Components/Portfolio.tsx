@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Style/general.css";
+import "../Style/general.scss";
 import Card from "./PortfolioCardPW";
 import {
   personalWebsite,
@@ -7,6 +7,13 @@ import {
 } from "../PortfolioContent/PersonalWebsite";
 import {QPS, QPStechnologies} from "../PortfolioContent/QueenslandPolice";
 import {Liberty, Ltechnologies} from "../PortfolioContent/Liberty";
+import {LaZucca, LZtechnologies} from "../PortfolioContent/LaZucca";
+import {ASCF, ASCFtechnologies} from "../PortfolioContent/ASCF";
+import {ConnectingBrisbane, CBtechnologies} from "../PortfolioContent/ConnectingBrisbane";
+import {Billboard, Btechnologies} from "../PortfolioContent/Billboard";
+import {LibertyE, LEtechnologies} from "../PortfolioContent/LibertyEnterprises";
+import {Library, Libtechnologies} from "../PortfolioContent/Library";
+import {LSV, LSVtechnologies} from "../PortfolioContent/LSV";
 import Button from "@material-ui/core/Button";
 
 function Portfolio() {
@@ -61,56 +68,56 @@ function Portfolio() {
             "lazuccaLogo.png",
             "#222222",
             "portfolioLogoImage",
-            personalWebsite,
-            PWtechnologies
+            LaZucca,
+            LZtechnologies
           )}
           {Card(
             "Liberty Enterprises",
             "libertyEnterprises.png",
             "#111921",
             "portfolioLogoImage",
-            personalWebsite,
-            PWtechnologies
+            LibertyE,
+            LEtechnologies
           )}
           {Card(
             "Living Sound & Vision",
             "LSVLogo.png",
             "white",
             "portfolioLogoImage",
-            personalWebsite,
-            PWtechnologies
+            LSV,
+            LSVtechnologies
           )}
           {Card(
             "Australian Secure Capital Fund",
             "ASCFLogo.png",
             "#f59331",
             "portfolioLogoImage",
-            personalWebsite,
-            PWtechnologies
+            ASCF,
+            ASCFtechnologies
           )}
           {Card(
             "Connecting Brisbane",
             "connectingBrisbaneLogo.png",
             "black",
             "portfolioLogoImage",
-            personalWebsite,
-            PWtechnologies
+            ConnectingBrisbane,
+            CBtechnologies
           )}
           {Card(
             "Billboard Software",
             "billboardImage.png",
             "#eeeeee",
             "consoleImage",
-            personalWebsite,
-            PWtechnologies
+            Billboard,
+            Btechnologies
           )}
           {Card(
             "Library System",
             "librarySoftwarePhoto.PNG",
             "#0c0c0c",
             "consoleImage",
-            personalWebsite,
-            PWtechnologies
+            Library,
+            Libtechnologies
           )}
          </div>
         </div>

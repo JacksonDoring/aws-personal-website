@@ -2,8 +2,8 @@ import React from "react";
 
 const Liberty = [
   <p>
-    I have developed my own Personal Website for displaying and demonstrating
-    skills, achievments and experience I have gained.
+    Hired by Liberty Digital to make their website more visually appealing and user-friendly to aid in growing the company. Also used PHP and 
+    Javascript to add in custom features were needed.
   </p>
 ];
 

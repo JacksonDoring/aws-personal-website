@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/general.css";
+import "../Style/general.scss";
 
 function AboutMe() {
   return (

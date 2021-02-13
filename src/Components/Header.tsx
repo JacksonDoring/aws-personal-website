@@ -1,7 +1,6 @@
 import React from "react";
-import "../Style/general.css";
+import "../Style/general.scss";
 import Jackson from "../Images/JacksonDoring.png";
-import { blue, red } from "@material-ui/core/colors";
 
 function Header() {
   return (
@@ -11,7 +10,7 @@ function Header() {
       </div>
 
       <div className="imageJackson">
-        <img src={Jackson} id="image"></img>
+        <img src={Jackson} id="image" alt="Jackson"></img>
       </div>
       <p></p>
     </div>

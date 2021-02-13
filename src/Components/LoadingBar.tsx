@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/general.css";
+import "../Style/general.scss";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
@@ -38,6 +38,7 @@ function LoadingBar(
           src={require("../Images/" + skillImage)}
           width="20px"
           className="loadingBarImage"
+          alt="skills"
         /><br></br>
         {skillName}
       </p>

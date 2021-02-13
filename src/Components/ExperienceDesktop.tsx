@@ -1,4 +1,4 @@
-import "../Style/general.css";
+import "../Style/general.scss";
 import React from "react";
 import { makeStyles, Theme } from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";

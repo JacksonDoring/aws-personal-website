@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/general.css";
+import "../Style/general.scss";
 
 function Menu() {
   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -26,7 +26,7 @@ function Menu() {
       <a href="#experience">Experience</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" className="icon" onClick={myFunction}>
+      <a href="void" className="icon" onClick={myFunction}>
         <i className="fa fa-bars"></i>
       </a>
     </div>

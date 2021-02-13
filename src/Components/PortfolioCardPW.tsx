@@ -1,6 +1,4 @@
-import React, { FunctionComponent } from "react";
-import { render } from "react-dom";
-import MySkills from "./MySkils";
+import React from "react";
 
 function PortfolioCard(
   portfolioName: string,
@@ -20,6 +18,7 @@ function PortfolioCard(
               <img
                 src={require("../Images/" + image)}
                 className={photoSize}
+                alt="portfolio"
               ></img>
             </div>
           </div>
