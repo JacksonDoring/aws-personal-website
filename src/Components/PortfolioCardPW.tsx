@@ -10,6 +10,7 @@ function PortfolioCard(
 ) {
 
   return (
+    //Card Flipper
     <div className="cardContainer">
       <div className="flip-container">
         <div className="flipper">
