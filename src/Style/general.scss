@@ -3,20 +3,20 @@ $secondaryColor: #2f2f2f;
 $secondaryColor2: #454545;
 $mainFont: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
-.mobileExperienceTabs{
+.mobileExperienceTabs {
   border: 10px;
   background-color: white;
 }
 
-#libraryText{
+#libraryText {
   font-size: 15px;
 }
 
-.MuiTab-textColorPrimary.Mui-selected{ 
+.MuiTab-textColorPrimary.Mui-selected {
   color: $primaryColor !important;
 }
 
-.PrivateTabIndicator-colorPrimary-3{
+.PrivateTabIndicator-colorPrimary-3 {
   background-color: $primaryColor !important;
 }
 
@@ -38,7 +38,7 @@ div::-webkit-scrollbar:vertical {
   display: none;
 }
 
-.skillTag{
+.skillTag {
   background-color: $primaryColor;
   color: white;
   float: left;
@@ -75,7 +75,7 @@ div::-webkit-scrollbar:vertical {
   width: 100%;
 }
 
-.MuiTab-wrapper{
+.MuiTab-wrapper {
   font-family: $mainFont;
 }
 
@@ -156,8 +156,8 @@ div::-webkit-scrollbar:vertical {
   font-family: $mainFont;
 }
 
-.cardSkillsDiv{
-  padding:10px;
+.cardSkillsDiv {
+  padding: 10px;
   position: absolute;
   bottom: 10px;
   font-family: $mainFont;
@@ -245,16 +245,16 @@ div::-webkit-scrollbar:vertical {
 
 .cardContainer {
   min-width: 320px;
-  min-height:480px;
+  min-height: 480px;
   float: left;
   display: flex;
   justify-content: center;
 }
 
-.cardContain{
-  
-  width: 100%;
+.cardContain {
+  min-width: 120%;
   display: inline-block;
+  overflow: hidden;
 }
 
 .flip-container {
@@ -310,6 +310,7 @@ div::-webkit-scrollbar:vertical {
 
 .portfolioHeader {
   color: white;
+  padding-bottom: 20px;
 }
 
 .loadingBar1 {
@@ -367,9 +368,9 @@ p {
   overflow: hidden;
   width: 100%;
   position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        z-index: 100;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 /* Style the links inside the navigation bar */
@@ -412,7 +413,7 @@ p {
   }
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   html,
   body {
@@ -425,7 +426,6 @@ p {
   .topnav a.icon {
     float: right;
     display: block;
-    
   }
 
   .loadingBarText {
@@ -443,6 +443,15 @@ p {
     padding-bottom: 10%;
   }
 
+  .cardDetailsDiv {
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
+
+  .cardSkillsDiv {
+    font-size: 1em;
+  }
+
   .cardContainer {
     min-width: 320px;
     min-height: 480px;
@@ -457,13 +466,10 @@ p {
   .cardGroupContainer {
     min-width: 320px;
     margin: auto;
-  width: 80%;
-  padding: 0px;
+    width: 80%;
+    padding: 0px;
   }
-}
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
@@ -497,7 +503,7 @@ p {
     padding-right: 10%;
   }
 
-  .contactText{
+  .contactText {
     font-size: 1.3em;
   }
 }

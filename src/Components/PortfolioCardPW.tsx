@@ -8,7 +8,6 @@ function PortfolioCard(
   description: any,
   skills: string[]
 ) {
-
   return (
     //Card Flipper
     <div className="cardContainer">
@@ -26,7 +25,11 @@ function PortfolioCard(
           <div className="back" style={{ backgroundColor: "#2f2f2f" }}>
             <h1 className="cardHeading">{portfolioName}</h1>
             <div className="cardDetailsDiv">{description}</div>
-            <div className="cardSkillsDiv">{skills.map(skill => <p className="skillTag">{skill}</p>)}</div>
+            <div className="cardSkillsDiv">
+              {skills.map((skill) => (
+                <p className="skillTag">{skill}</p>
+              ))}
+            </div>
           </div>
         </div>
       </div>

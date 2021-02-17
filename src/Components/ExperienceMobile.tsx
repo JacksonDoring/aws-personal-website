@@ -1,10 +1,10 @@
-import React from 'react';
-import { makeStyles, Theme } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import React from "react";
+import { makeStyles, Theme } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -35,14 +35,14 @@ function TabPanel(props: TabPanelProps) {
 function a11yProps(index: any) {
   return {
     id: `scrollable-auto-tab-${index}`,
-    'aria-controls': `scrollable-auto-tabpanel-${index}`,
+    "aria-controls": `scrollable-auto-tabpanel-${index}`,
   };
 }
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
     flexGrow: 1,
-    width: '100%',
+    width: "100%",
     backgroundColor: theme.palette.background.paper,
   },
 }));
@@ -56,32 +56,32 @@ export default function ScrollableTabsButtonAuto() {
   };
 
   return (
-      <div>
-          <h1 className="headings" id="experience">
+    <div>
+      <h1 className="headings" id="experience">
         My Experience
       </h1>
-      
-    <div className={classes.root}>
-        <div >
-      <AppBar position="static" color="default">
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-          className="mobileExperienceTabs"
-        >
-          <Tab label="La Zucca Manger" {...a11yProps(0)} />
-          <Tab label="Liberty Digital" {...a11yProps(1)} />
-          <Tab label="La Zucca IT Manager" {...a11yProps(2)} />
-          <Tab label="Hungry Jacks" {...a11yProps(3)} />
-        </Tabs>
-      </AppBar>
-      </div>
-      <TabPanel value={value} index={0}>
+
+      <div className={classes.root}>
+        <div>
+          <AppBar position="static" color="default">
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              indicatorColor="primary"
+              textColor="primary"
+              variant="scrollable"
+              scrollButtons="auto"
+              aria-label="scrollable auto tabs example"
+              className="mobileExperienceTabs"
+            >
+              <Tab label="La Zucca Manger" {...a11yProps(0)} />
+              <Tab label="Liberty Digital" {...a11yProps(1)} />
+              <Tab label="La Zucca IT Manager" {...a11yProps(2)} />
+              <Tab label="Hungry Jacks" {...a11yProps(3)} />
+            </Tabs>
+          </AppBar>
+        </div>
+        <TabPanel value={value} index={0}>
           <h3 className="experienceHeaders">
             <b>Manager @ La Zucca</b>
           </h3>
@@ -164,7 +164,7 @@ export default function ScrollableTabsButtonAuto() {
             <li>Mainting high food saftey standards</li>
           </ul>
         </TabPanel>
-    </div>
+      </div>
     </div>
   );
 }

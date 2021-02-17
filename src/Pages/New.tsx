@@ -14,9 +14,9 @@ function New() {
       <Menu />
       <AboutMe />
       <Skills />
-      <Experience/>
-      <Portfolio/>
-      <Footer/>
+      <Experience />
+      <Portfolio />
+      <Footer />
     </div>
   );
 }

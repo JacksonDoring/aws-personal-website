@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route} from "react-router-dom";
-import New from './Pages/New';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import New from "./Pages/New";
 
 function App() {
   return (

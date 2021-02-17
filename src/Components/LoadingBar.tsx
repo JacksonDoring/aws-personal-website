@@ -39,7 +39,8 @@ function LoadingBar(
           width="20px"
           className="loadingBarImage"
           alt="skills"
-        /><br></br>
+        />
+        <br></br>
         {skillName}
       </p>
     </div>
