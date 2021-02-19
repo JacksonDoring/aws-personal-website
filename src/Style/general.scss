@@ -424,6 +424,10 @@ p {
     height: 520px;
   }
 
+  .cardHeading{
+    padding-bottom: 5px;
+  }
+
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -462,7 +466,7 @@ p {
   }
 
   .smallCardGroupContainer {
-    height: 1440px;
+    height: 1560px;
     min-width: 320px;
     padding: 0px;
   }
