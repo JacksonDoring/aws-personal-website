@@ -420,6 +420,10 @@ p {
     overflow-x: hidden;
   }
 
+  .front, .back{
+    height: 520px;
+  }
+
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -454,7 +458,7 @@ p {
 
   .cardContainer {
     min-width: 320px;
-    min-height: 480px !important;
+    min-height: 520px !important;
   }
 
   .smallCardGroupContainer {
