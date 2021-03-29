@@ -16,13 +16,13 @@ function AboutMe() {
         <i>
           <b>Computer Science</b>{" "}
         </i>
-        . I am seeking a position in{" "}
+        . I am seeking a position as a{" "}
         <i>
-          <b>software</b>
+          <b>full stack developer</b>
         </i>{" "}
         or{" "}
         <i>
-          <b>web development</b>
+          <b>software engineer </b>
         </i>{" "}
         to build upon the knowledge I have gained through education and work. I
         have a deep interest in technology and how it can be intergrated into
