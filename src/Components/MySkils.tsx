@@ -32,7 +32,7 @@ function MySkills() {
           {LoadingBar("Organisation", 90, "pencil.png", "#ffc334")}
         </div>
         <div className="loadingBar1">
-          {LoadingBar("", 90, "phpLogo.svg", "#777bb3")}
+          {LoadingBar("", 80, "phpLogo.svg", "#777bb3")}
         </div>
         <div className="loadingBar1">
           {LoadingBar("HTML", 99, "htmlLogo.png", "#e44d26")}
@@ -57,13 +57,13 @@ function MySkills() {
         <div className="loadingBar1">
           {LoadingBar("", 85, "sqlLogo.png", "#00a9ea")}
         </div>
-        <div className="loadingBar1">
+        {/* <div className="loadingBar1">
           {LoadingBar("Networking", 75, "networkingLogo.png", "#1486b3")}
-        </div>
+        </div> */}
         <div className="loadingBar1">
           {LoadingBar("Databases", 89, "databaseLogo.png", "blue")}
         </div>
-        <div className="loadingBar1">
+        {/* <div className="loadingBar1">
           {LoadingBar("Complex Algorithms", 81, "algoLogo.png", "#3dc8b3")}
         </div>
         <div className="loadingBar1">
@@ -73,7 +73,7 @@ function MySkills() {
             "cryptLogo.png",
             "#ff3333"
           )}
-        </div>
+        </div> */}
         <div className="loadingBar1">
           {LoadingBar("WordPress", 97, "wordpressLogo.png", "#49a6c8")}
         </div>

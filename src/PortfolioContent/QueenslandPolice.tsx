@@ -16,8 +16,10 @@ let QPStechnologies: string[] = [
   "Node",
   "Agile",
   "Github",
-  "CSS",
-  "MySQL Database",
+  "SASS",
+  "MySQL",
+  "API",
+  "SQL",
 ];
 
 export { QPS, QPStechnologies };

@@ -89,11 +89,11 @@ export default function ScrollableTabsButtonAuto() {
           <ul className="experienceList">
             <li>Ensuring KPIs are met</li>
             <li>Managing crew to ensure shifts are ran smoothly</li>
-            <li>Leading crew towards daily, weekly goals</li>
+            <li>Leading crew towards daily and weekly goals</li>
             <li>
               Using critical problem solving to deal with problem as they arise
               and implementing protocols to ensure they are miniised in the
-              suture
+              future
             </li>
             <li>
               Maintaing high standards of food quality, consistancy, and food
@@ -113,7 +113,10 @@ export default function ScrollableTabsButtonAuto() {
           <p className="experienceTime">October 2019 - October 2020</p>
           <ul className="experienceList">
             <li>Working closely with clients to deliver projects</li>
-            <li>Using Wordpress and Shopify to create websites for clients</li>
+            <li>
+              Using Wordpress and Shopify to create and modify websites for
+              clients
+            </li>
             <li>Ensuring websites are user-friendly and visually appealing</li>
             <li>
               Delivering websites that are built and designed to maximise user
@@ -137,7 +140,7 @@ export default function ScrollableTabsButtonAuto() {
           </h3>
           <p className="experienceTime">July 2019 - Current</p>
           <ul className="experienceList">
-            <li>Using SEO to increase sales by 20%</li>
+            <li>Used SEO to increase sales by 20%</li>
             <li>
               Ensuirung IT services are running and maintained appropriately
             </li>

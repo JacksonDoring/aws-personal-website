@@ -26,7 +26,7 @@ function Menu() {
       <a href="#experience">Experience</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
-      <a href="void" className="icon" onClick={myFunction}>
+      <a href="#" className="icon" onClick={myFunction}>
         <i className="fa fa-bars"></i>
       </a>
     </div>
