@@ -246,14 +246,15 @@ div::-webkit-scrollbar:vertical {
 .cardContainer {
   min-width: 320px;
   min-height: 480px;
-  float: left;
-  display: flex;
+  display: inline-block;
   justify-content: center;
 }
 
 .cardContain {
-  min-width: 120%;
-  display: inline-block;
+  display: hidden;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 100px 200px;
+  place-items: center;
   overflow: hidden;
 }
 
@@ -305,7 +306,6 @@ div::-webkit-scrollbar:vertical {
 .portfolioBG {
   background-color: $secondaryColor2;
   padding-bottom: 30px;
-  
 }
 
 .portfolioHeader {
@@ -420,11 +420,12 @@ p {
     overflow-x: hidden;
   }
 
-  .front, .back{
+  .front,
+  .back {
     height: 520px;
   }
 
-  .cardHeading{
+  .cardHeading {
     padding-bottom: 5px;
   }
 
