@@ -74,6 +74,7 @@ export default function ScrollableTabsButtonAuto() {
               aria-label="scrollable auto tabs example"
               className="mobileExperienceTabs"
             >
+              <Tab label="Flight Centre" {...a11yProps(4)} />
               <Tab label="La Zucca Manger" {...a11yProps(0)} />
               <Tab label="Liberty Digital" {...a11yProps(1)} />
               <Tab label="La Zucca IT Manager" {...a11yProps(2)} />
@@ -82,6 +83,32 @@ export default function ScrollableTabsButtonAuto() {
           </AppBar>
         </div>
         <TabPanel value={value} index={0}>
+          <h3 className="experienceHeaders">
+            <b>Software Engineer @ Flight Centre</b>
+          </h3>
+          <p className="experienceTime">June 2021 - Current</p>
+          <ul className="experienceList">
+            <li>
+              Using software engineering best practices to deliver business
+              critical items
+            </li>
+            <li>Supporting various applications</li>
+            <li>Developing fullstack appliations</li>
+            <li>
+              Helping the team deliver high quality software through
+              implementing and refining software practices
+            </li>
+            <li>
+              Working with Java, JavaScript, Azure, Sybase, Spring, Splunk,
+              Jenkins and more
+            </li>
+            <li>
+              Upskilling other developers through mentoring and paired
+              programming
+            </li>
+          </ul>
+        </TabPanel>
+        <TabPanel value={value} index={1}>
           <h3 className="experienceHeaders">
             <b>Manager @ La Zucca</b>
           </h3>
@@ -106,7 +133,7 @@ export default function ScrollableTabsButtonAuto() {
             <li>Delivering high standards of customer service to patrons</li>
           </ul>
         </TabPanel>
-        <TabPanel value={value} index={1}>
+        <TabPanel value={value} index={2}>
           <h3 className="experienceHeaders">
             <b>Web Developer @ Liberty Digital</b>
           </h3>
@@ -134,7 +161,7 @@ export default function ScrollableTabsButtonAuto() {
             <li>Ensuring KPIs are met</li>
           </ul>
         </TabPanel>
-        <TabPanel value={value} index={2}>
+        <TabPanel value={value} index={3}>
           <h3 className="experienceHeaders">
             <b>IT Manager @ La Zucca</b>
           </h3>
@@ -153,7 +180,7 @@ export default function ScrollableTabsButtonAuto() {
             </li>
           </ul>
         </TabPanel>
-        <TabPanel value={value} index={3}>
+        <TabPanel value={value} index={4}>
           <h3 className="experienceHeaders">
             <b>Team Leader @ Hungry Jacks</b>
           </h3>

@@ -11,10 +11,16 @@ function MySkills() {
       </h1>
       <div className="slidingBar">
         <div className="loadingBar1">
-          {LoadingBar("React", 80, "reactLogo.png", "#61dafb")}
+          {LoadingBar("Java", 80, "javaLogo.png", "#5382a1")}
         </div>
         <div className="loadingBar1">
-          {LoadingBar("", 40, "awsLogo.png", "#ff9900")}
+          {LoadingBar("Spring", 70, "springboot.png", "#5382a1")}
+        </div>
+        <div className="loadingBar1">
+          {LoadingBar("React", 70, "reactLogo.png", "#61dafb")}
+        </div>
+        <div className="loadingBar1">
+          {LoadingBar("", 60, "awsLogo.png", "#ff9900")}
         </div>
         <div className="loadingBar1">
           {LoadingBar("Agile", 95, "agileLogo.png", "#1e7cc0")}
@@ -32,7 +38,7 @@ function MySkills() {
           {LoadingBar("Organisation", 90, "pencil.png", "#ffc334")}
         </div>
         <div className="loadingBar1">
-          {LoadingBar("", 80, "phpLogo.svg", "#777bb3")}
+          {LoadingBar("", 50, "phpLogo.svg", "#777bb3")}
         </div>
         <div className="loadingBar1">
           {LoadingBar("HTML", 99, "htmlLogo.png", "#e44d26")}
@@ -43,16 +49,10 @@ function MySkills() {
         <div className="loadingBar1">
           {LoadingBar(
             "Javascript/Typescript",
-            90,
+            70,
             "javascriptLogo.png",
             "#d6ba32"
           )}
-        </div>
-        <div className="loadingBar1">
-          {LoadingBar("Java", 70, "javaLogo.png", "#5382a1")}
-        </div>
-        <div className="loadingBar1">
-          {LoadingBar("", 70, "csharpLogo.png", "#2d006e")}
         </div>
         <div className="loadingBar1">
           {LoadingBar("", 85, "sqlLogo.png", "#00a9ea")}
@@ -75,7 +75,7 @@ function MySkills() {
           )}
         </div> */}
         <div className="loadingBar1">
-          {LoadingBar("WordPress", 97, "wordpressLogo.png", "#49a6c8")}
+          {LoadingBar("WordPress", 90, "wordpressLogo.png", "#49a6c8")}
         </div>
         <div className="loadingBar1">
           {LoadingBar("", 80, "nodeLogo.png", "#4caf50")}

@@ -5,6 +5,7 @@ import {
   personalWebsite,
   PWtechnologies,
 } from "../PortfolioContent/PersonalWebsite";
+import { cheyWebsite, Cheytechnologies } from "../PortfolioContent/CheyShots";
 import { QPS, QPStechnologies } from "../PortfolioContent/QueenslandPolice";
 import { Liberty, Ltechnologies } from "../PortfolioContent/Liberty";
 import { LaZucca, LZtechnologies } from "../PortfolioContent/LaZucca";
@@ -45,6 +46,14 @@ function Portfolio() {
 
         <div className={divStyle}>
           <div className="cardContain">
+            {Card(
+              "cheyyffaithhshots.com",
+              "cheyenne.jpg",
+              "black",
+              "front",
+              cheyWebsite,
+              Cheytechnologies
+            )}
             {Card(
               "Personal Website",
               "me2.jpg",
