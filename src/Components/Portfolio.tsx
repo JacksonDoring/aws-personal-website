@@ -47,7 +47,7 @@ function Portfolio() {
         <div className={divStyle}>
           <div className="cardContain">
             {Card(
-              "cheyyffaithhshots.com",
+              "storiesbychey.com",
               "cheyenne.jpg",
               "black",
               "front",
