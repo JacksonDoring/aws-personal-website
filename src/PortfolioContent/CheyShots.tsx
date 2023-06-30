@@ -7,7 +7,7 @@ const cheyWebsite = [
     requirements
     <br></br>
     <br></br>
-    <a href="https://www.cheyyffaithhshots.com/">Visit Website</a>
+    <a href="https://www.storiesbychey.com/">Visit Website</a>
   </p>,
 ];
 
